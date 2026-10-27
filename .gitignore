@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.DS_Store
+.env
+# early trial runs (auth-failure test and 3-claim smoke test)
+results/20261027-163513_*
+results/20261027-164617_*

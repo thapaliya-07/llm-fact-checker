@@ -1,0 +1,21 @@
+Model: claude-opus-5-5  effort: medium  claims: 30  run: 20261027-164829
+
+== with_evidence: accuracy 29/30 = 97%
+   Supported        10/10 = 100%
+   Refuted          10/10 = 100%
+   Not Enough Info  9/10 = 90%
+   confusion (rows=gold, cols=pred):  SUP  REF  NEI
+                                    SUP:   10    0    0
+                                    REF:    0   10    0
+                                    NEI:    0    1    9
+   tokens: 574,212 in / 2,742 out
+
+== no_evidence: accuracy 30/30 = 100%
+   Supported        10/10 = 100%
+   Refuted          10/10 = 100%
+   Not Enough Info  10/10 = 100%
+   confusion (rows=gold, cols=pred):  SUP  REF  NEI
+                                    SUP:   10    0    0
+                                    REF:    0   10    0
+                                    NEI:    0    0   10
+   tokens: 11,526 in / 2,549 out
